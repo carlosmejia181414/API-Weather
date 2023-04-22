@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poor+Story&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="style.css" />
+		<title>API Weather</title>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	</head>
+	<body>
+		<main>
+			<div class="searchForm">
+				<form action="" id="searchMain">
+					<div class="searchBox">
+						<input
+							type="text"
+							autocomplete="off"
+							placeholder="Search City"
+							class="search"
+							id="searchBox"
+						/>
+					</div>
+				</form>
+			</div>
+			<div class="weather-card">
+				<div class="city" id="city"></div>
+				<div class="date" id="date"></div>
+				<div class="temperature">
+					<img
+						src="images/weather.jpeg"
+						alt="imgWeather"
+						class="weather-img"
+						id="weather-img"
+					/>
+					<div class="temp" id="temp"></div>
+				</div>
+				<div class="weather" id="weather"></div>
+				<div class="range" id="range"></div>
+			</div>
+		</main>
+		<footer></footer>
+		<script src="script/main.js"></script>
+	</body>
+</html>
